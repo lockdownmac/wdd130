@@ -13,8 +13,7 @@ h1 {
     color: royalblue;
 }
 main img {
-    height: auto;
-    width: 150px;
+    max-width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
