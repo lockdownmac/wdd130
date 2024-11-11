@@ -1,3 +1,9 @@
+:root {
+    --heading-background-color: var(royalblue);
+    --heading-text-color: var(royalblue);
+    --padding: 1rem;
+    --border: 1px colid rgb(0 0 0 / 0.2);
+}
 nav { 
     background-color: royalblue; 
     padding: 10px;
