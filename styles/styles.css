@@ -40,7 +40,7 @@ main {
 }
 
 
-aside {
+aside { position: relative;
     width: 20em;
     text-align: center;
     
@@ -73,8 +73,8 @@ footer {
 }
 
 aside h2 {
-    position: absolute;
-    top: 675px;
-    left: 115px;
+    position: relative;
+    top: 50px;
+    left: 1px;
     color: white;
 }
