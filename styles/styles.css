@@ -28,6 +28,7 @@ p {padding-bottom: 20px;
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
