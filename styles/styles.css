@@ -40,10 +40,11 @@ main {
 }
 
 
-aside { 
-    position: relative;
+aside {  
+    
     width: 20em;
     text-align: center;
+    position: relative;
     
     }
 
