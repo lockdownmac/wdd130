@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 :root {
-    --heading-background-color: var(darkblue);
-    --heading-text-color: var(darkblue);
+    --heading-background-color: var(#00008b);
+    --heading-text-color: var(#00008b);
     --padding: 1rem;
     --border: 1px colid rgb(0 0 0 / 0.2);
 }
 nav { 
-    background-color: darkblue; 
+    background-color: #00008b; 
     padding: 10px;
 }
 
