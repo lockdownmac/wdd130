@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root {
-    
+
     --padding: 1rem;
     --border: 1px colid rgb(0 0 0 / 0.2);
 }
@@ -74,7 +74,7 @@ footer {
 
 aside h2 {
     position: absolute;
-    top: 700px;
+    top: 675px;
     left: 115px;
     color: white;
 }
