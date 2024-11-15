@@ -3,7 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif; /* Default font for body */
+}
 
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive; /* For headings */
+}
+
+h4, h5, h6 {
+    font-family: 'Fira Sans', sans-serif; /* For subheadings */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* For paragraphs */
+}
+
+.special-text {
+    font-family: 'Meow Script', cursive; /* For special elements */
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif; /* For condensed text */
+}
 :root {
 
     --padding: 1rem;
