@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.dancing-script {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
     .meow-script-regular {
         font-family: "Meow Script", cursive;
         font-weight: 400;
