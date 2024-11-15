@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+    .meow-script-regular {
+        font-family: "Meow Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
 :root {
 
     --padding: 1rem;
