@@ -26,7 +26,6 @@ nav a {
     color: #264969;
     display: contents;
     padding: 10px;
-    position: center;
     font-family: "Fira Sans", sans-serif;
     font-size: larger;
     font-weight: 600;
@@ -112,7 +111,6 @@ main {
 
 .side-image2 h2 {
     font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
     font-style: Italic;
     position: absolute;           /* Allows positioning over the image */
     top: 85%;                      /* Vertically center the heading */
@@ -135,7 +133,6 @@ main {
     align-items: center;                  /* Center horizontally */
     justify-content: center; 
     font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
     font-style: Normal;             /* Center vertically */
     color:  #264969;                          /* White text for contrast */
     text-align: center;                   /* Center text horizontally */
@@ -170,7 +167,6 @@ main {
 }
 .side-image3 h2 {
     font-family: "Meow Script", cursive;
-    font-optical-sizing: auto;
     font-style: Italic;
     position: absolute;           /* Allows positioning over the image */
     top: 85%;                      /* Vertically center the heading */
