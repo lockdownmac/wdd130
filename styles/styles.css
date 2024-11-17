@@ -121,7 +121,6 @@ main {
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    transform: translateX(-50);
     padding: 0.5rem;
 }
 
