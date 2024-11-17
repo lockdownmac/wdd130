@@ -30,9 +30,18 @@ nav a {
     font-size: 1.2rem
 }
 
-header, .grid, footer{
+header, footer {
+    width: 100%;
+    max-width: 840px;
     display: flex;
     margin: 0 auto;
+    justify-content: center
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
 }
 
 .grid {
@@ -117,6 +126,7 @@ main {
 
 .box2 h2 {
     position: absolute;
+
     left: 50%;
     transform: translateX(-50%);
     color: white;
