@@ -117,7 +117,7 @@ main {
 
 .box2 h2 {
     position: absolute;
-    top: 20px;
+    top: px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
