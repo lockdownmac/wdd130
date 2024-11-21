@@ -55,11 +55,16 @@ header, footer, .grid {
     text-align: center;
 }
 
+main{
+    grid-column: 2/3;
+    margin: 0rem;
+}
 aside {
     width: 20rem;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    background-color: lightgray;
 }
 
 
@@ -114,7 +119,7 @@ aside {
     grid-row: 1;
     margin: 0rem;
     padding: 1rem;
-    background-color: white;
+    background-color: lightgray;
     color: #000;
     height: 100%;
     display: flex;
