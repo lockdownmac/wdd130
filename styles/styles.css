@@ -31,20 +31,13 @@ nav a {
 }
 
 header, footer, .grid {
-    width: 100%;
+    
     max-width: 840px;
     display: flex;
     margin: 0 auto;
     justify-content: center
 }
 
-footer {
-    margin: 0 auto;
-    max-width: 840px;
-    margin-top: 15px;
-    border-top: 1px solid black;
-    text-align: center;
-}
 
 .grid {
     display: grid;
