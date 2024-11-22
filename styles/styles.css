@@ -59,6 +59,7 @@ main{
     grid-column: 2/3;
     margin: 0rem;
 }
+
 aside {
     width: 20rem;
     position: relative;
@@ -66,8 +67,6 @@ aside {
     grid-row: 1/2;
     background-color: lightgray;
 }
-
-
 
 .box {
     position: relative;
@@ -80,7 +79,6 @@ aside {
     overflow: hidden;
     display: block;
 }
-
 
 .box img {
     float: right;
