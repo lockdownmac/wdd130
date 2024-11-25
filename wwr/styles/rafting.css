@@ -13,10 +13,6 @@ h1, h2, h3 {
     font-family: 'Dancing Script', cursive; /* For headings */
 }
 
-h4, h5, h6 {
-    font-family: 'Fira Sans', sans-serif; /* For subheadings */
-}
-
 p {
     font-family: 'Roboto', sans-serif; /* For paragraphs */
 }
@@ -46,15 +42,6 @@ nav {
     padding: 10px;
 }
 
-nav a {
-    color: #264969;
-    display: contents;
-    padding: 10px;
-    font-family: "Fira Sans", sans-serif;
-    font-size: larger;
-    font-weight: 600;
-    font-style: italic;
-}
 .navbar {
     display: flex;
     justify-content: center;    /* Centers nav items horizontally */
