@@ -105,7 +105,7 @@ main {
     margin-bottom: 20px;
 }
 
-.adventures .adventure-gallery {
+.adventure-images {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
