@@ -22,16 +22,20 @@ body {
 /* Header */
 header {
     display: grid;
-    grid-template-columns: 120px 1fr 3fr;
+    grid-template-columns: 20% 50%;
     align-items: center;
     padding: 20px;
     background-color: var(--primary-color);
     color: #fff;
+    justify-content: flex-end;
 }
 
 header img {
-    max-width: 100px;
+    max-width: 180px;
     border-radius: 5px;
+    box-shadow:  0 0 15px 5px #e7d5c4;
+    align-items: center;
+   
 }
 
 header h1 {
@@ -42,49 +46,70 @@ header h1 {
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    gap: 15px;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
+nav ul {
+    list-style:None;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: center;
+}
 nav a {
     text-decoration: none;
     color: #fff;
     padding: 10px 15px;
-    background-color: #71563d;
+    background-color: #264969;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 nav a:hover {
-    background-color: #ecf3f8;
-    color: var(--secondary-color);
+    background-color: #71563d;
+    color: var(#43555f);
     transform: scale(1.1);
+    align-items: center;
 }
 
 
 
 /* Main Content Layout */
-main {
+.main-content {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
+    text-align: center;
+    
 }
 
+.main-content img {
+    box-shadow:  0 0 15px 5px #71563d;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
 /* History Section */
 .history {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
+    flex-direction: row;
+   /*grid-template-columns: 1fr 2fr 1fr;*/
     gap: 20px;
     padding: 20px;
     background-color: var(--light-bg);
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
+    box-shadow:  0 0 15px 5px #43555f
 }
 
 .history img {
     width: 100%;
     border-radius: 10px;
+    box-shadow:  0 0 15px 5px #43555f
 }
 
 .history p {
@@ -106,27 +131,25 @@ main {
 }
 
 .adventure-images {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
 }
 
-.adventures figure {
+.adventure figure {
     text-align: center;
     margin: 0;
 }
 
-.adventures img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.adventures figcaption {
+.adventure figcaption {
     margin-top: 10px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 
