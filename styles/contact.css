@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #43555f;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #264969;
+    --secondary-color: #71563d;
+    --light-bg: #e7d5c4;
+    --footer-bg: #264969;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    justify-content: flex-end;
+}
+
+header img {
+    max-width: 180px;
+    border-radius: 5px;
+    box-shadow:  0 0 15px 5px #e7d5c4;
+    align-items: center;
+   
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav ul {
+    list-style:None;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: center;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #264969;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #71563d;
+    color: #43555f;
+    transform: scale(1.1);
+    align-items: center;
+}
+
+
+
+/* Main Content Layout */
+.main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.main-content img {
+    box-shadow:  0 0 15px 5px #71563d;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+/* History Section */
+.history {
+    display: flex;
+    flex-direction: row;
+   /*grid-template-columns: 1fr 2fr 1fr;*/
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    box-shadow:  0 0 15px 5px #43555f
+}
+
+.history img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:  0 0 15px 5px #43555f
+}
+.history h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.history p {
+    text-align: justify;
+    margin: auto 0;
+}
+
+/* Adventures Section */
+.adventures {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.adventure h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.adventure-images {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+.adventure-images img {
+    box-shadow:  0 0 15px 5px #71563d;
+}
+.adventure figure {
+    text-align: center;
+    margin: 0;
+}
+
+.adventure figcaption {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #b5a4cb;
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--footer-bg);
+    color: #fff;
+}
+
+footer .sociallinks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
