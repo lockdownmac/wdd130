@@ -74,7 +74,7 @@ nav a {
 nav a:hover {
     background-color: #71563d;
     color: #eee;
-    transform: scale(1.1);
+    transition: transform 0.3s ease;
     align-items: center;
 }
 
@@ -181,11 +181,18 @@ footer {
     padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+footer a {
+    color: white
+}
+
+footer a:hover {
+    color: #71563d
+}
 
 /* Footer */
 footer {
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 80% 15%;
     align-items: center;
     padding: 20px;
     background-color: var(--footer-bg);
@@ -195,7 +202,7 @@ footer {
 footer .sociallinks {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     justify-content: flex-start;
 }
 
