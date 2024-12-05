@@ -80,11 +80,12 @@ nav a:hover {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
     
 }
 
 .main-content img {
-    box-shadow:  0 0 15px 5px #71563d;
+    box-shadow:  0 0 15px 5px #43555f;
     margin: 20px;
 }
 
@@ -92,74 +93,125 @@ h1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
-/* History Section */
-.history {
+/* Employee Section*/
+.employees h2 {
+    justify-self: center;
+    text-align: center; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}
+.employees {
     display: flex;
     flex-direction: row;
    /*grid-template-columns: 1fr 2fr 1fr;*/
-    gap: 20px;
+    border: 20px;
     padding: 20px;
     background-color: var(--light-bg);
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-    box-shadow:  0 0 15px 5px #43555f
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow:  0 0 15px 5px #43555f;
 }
 
-.history img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow:  0 0 15px 5px #43555f
-}
-.history h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    padding: 20px;
-}
-.history p {
-    text-align: justify;
-    margin: auto 0;
-}
-
-/* Adventures Section */
-.adventures {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.adventure h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.adventure-images {
+.employee-images {
     display: flex;
-    flex-wrap: wrap;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
-}
 
-.adventure-images img {
+}
+.employee-images img {
     box-shadow:  0 0 15px 5px #71563d;
 }
-.adventure figure {
+
+.employee-images figure {
     text-align: center;
     margin: 0;
+    font-family: 'Dancing Script', cursive;
 }
 
-.adventure figcaption {
-    margin-top: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 0.9rem;
-    text-align: center;
+/* Form Section */
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 3px #71563d;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    box-shadow: 0 0 15px 5px #43555f;  
+    display: grid;
+    margin-bottom: 40px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border:1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #43555f;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em; 
+}
+
+.form-item column1 {
+    display: grid;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.form-email column2 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 2fr 2fr;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Dancing Script', cursive;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+.form-radio {
+    font-family: 'Dancing Script', cursive;
+
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: center;
+    
+}
+
+button {
+    margin: 1rem;
+    background-color: #43555f;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #71563d;
 }
 
 
@@ -175,7 +227,7 @@ footer {
 /* Footer */
 footer {
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 80% 15%;
     align-items: center;
     padding: 20px;
     background-color: var(--footer-bg);
@@ -199,5 +251,3 @@ footer img {
 footer img:hover {
     transform: scale(1.2);
 }
-
-

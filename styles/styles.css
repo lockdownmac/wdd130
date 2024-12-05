@@ -30,16 +30,23 @@ nav a {
     font-size: 1.2rem
 }
 
-header, footer, .grid {
+header, .grid {
     
     max-width: 840px;
-    display: flex;
+    display: center;
     margin: 0 auto;
     justify-content: center;
     border-top: 1px solid black;
 
 }
 
+footer {
+    max-width: 840px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-top: 1px solid black;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

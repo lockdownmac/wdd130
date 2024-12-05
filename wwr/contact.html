@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Sans:wght@200;400&family=Meow+Script&family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Sans&family=Meow+Script&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/contact.css"-->
 </head>
 
 <body>
     <div class="container">
-
         <header>
             <img src="images/wwlogo.jpg" alt="logo">
             <nav>
@@ -27,69 +27,92 @@
                 </ul>  
             </nav>
         </header>
-
         <main>
-            <h1>Contact US</h1> 
+            <h1>Contact Us</h1> 
             <div class="main-content">
-                <p>MISSION: Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Voluptatum molestiae, quae enim nulla repudiandae inventore quidem 
-                exercitationem! Ullam eius corporis quos reprehenderit adipisci quasi, 
-                cumque ut? Neque, eligendi pariatur! A.</p>
-                <img src="images/hero.jpg" alt="river">
+                <p>White Water Rafting Company</p>
+                <p>1234 Main St.</p>
+                <p>SLC, UT 84101</p>
+                <p>Ph. 801-555-555</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8864540326117!2d-111.8947292255395!3d40.74252393574882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f5301b317595%3A0x5bdaa19637903758!2s1234%20S%20Main%20St%2C%20Salt%20Lake%20City%2C%20UT%2084101!5e0!3m2!1sen!2sus!4v1733360800860!5m2!1sen!2sus" width="400" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+    <section class="employees">
+        <h2> We Are Always Happy to Help </h2>
+        <div class="employee-images"> 
+            <figure>
+                <img src="images/emp1.jpg" alt="employee1"> <!--160 x 240-->
+                <figcaption>Helping Us Help You</figcaption>
+            </figure>
+            <figure>    
+                <img src="images/emp2.jpg" alt="employee2"> <!--160 x 240-->
+                <figcaption>24 Hour Response Time</figcaption>
+            </figure>
+            <figure>
+                <img src="images/emp3.jpg" alt="employee3"><!--160 x 240-->
+                <figcaption>Customer Satisfaction Guaranteed</figcaption>
+            </figure>
+        </div> 
+    </section>
+    <section class="Form">
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div class="form-item column1">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname"><br>
+                </div>
+                <div class="form-text1 column1">    
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="4" placeholder="Enter Address Here"></textarea>
+                </div>
+                <div class="form-email column2">
+                    <label for="useremail">Email:</label><br>
+                    <input type="email" id="useremail" name="useremail"><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Purpose of Inquiry</legend>
+                <div class="form-radio">
+                    <label for="purpose"></label>
+                    <input type="radio" name="general" value="general-inquiry">General Inquiry
+                    <label for="purpose"></label>
+                    <input type="radio" name="reservation" value="reservation">Reservation Questions
+                    <label for="purpose"></label>
+                    <input type="radio" name="website" value="website">General Inquiry
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <div class="form-text2">
+                    <label for="message"></label><br>
+                    <textarea id="message" name="message" rows="6" placeholder="Type your message here"></textarea><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <div class="form-submit">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter"</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <button type="submit">Send</button>
+                </div>
+            </fieldset>
+                
+        </form>
+    </section>
         </main>
 
-        
-        <section class="history">
-            <h2> History </h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad repellendus 
-            laboriosam voluptatum quis a exercitationem. Ab iusto, dolorem ipsa asperiores 
-            illum voluptatum? Beatae voluptatibus error delectus minima nemo obcaecati in.</p>
-            <img src="images/employee.jpg" alt="employee">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad repellendus 
-            laboriosam voluptatum quis a exercitationem. Ab iusto, dolorem ipsa asperiores 
-            illum voluptatum? Beatae voluptatibus error delectus minima nemo obcaecati in.</p>
-        </section>
-    
-    <section class="adventure">
-        <h2>Adventure Awaits You!</h2>
-        <div class="adventure-images">
-            <figure>
-                <img src="images/rafting4.jpg" alt="rafting4" width="350" height="200">
-                <figcaption>Group Adventures</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting3.jpg" alt="rafting3" width="350" height="200">
-                <figcaption>Good Times</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting2.jpg" alt="rafting2" width="350" height="200">
-                <figcaption>Wild and Wet</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting1.jpg" alt="rafting1" width="350" height="200">
-                <figcaption>Overcoming Fears</figcaption>
-            </figure>
-            <figure>  
-                <img src="images/rafting5.jpg" alt="rafting5" width="350" height="200">
-                <figcaption>Sense of Accomplishment</figcaption>
-            </figure>    
-        </div>
-    </section>
-
-    <footer>
-        <p>©️2024 | White Water Rafting, Inc.| Joshua McEwen</p>
-        <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook.jpg" alt="Facebook" width="50" height="50">
-            </a>
-            <a href="https://x.com">
-                <img src="images/X.jpg" alt="X" width="50" height="50">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.jpg" alt="Instagram" width="50" height="50">
-            </a>
-        </nav>
+        <footer>
+            <p>©️2024 | White Water Rafting, Inc.| Joshua McEwen</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.jpg" alt="Facebook" width="50" height="50">
+                </a>
+                <a href="https://x.com">
+                    <img src="images/X.jpg" alt="X" width="50" height="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.jpg" alt="Instagram" width="50" height="50">
+                </a>
+            </nav>
         </footer>  
     </div>
 </body>
