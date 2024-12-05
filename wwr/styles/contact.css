@@ -64,6 +64,7 @@ nav a {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     font-family: 'Dancing Script', cursive;
+    box-shadow: 0 0 15px 5px #fff;
 }
 
 nav a:hover {
@@ -219,19 +220,24 @@ button:hover {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #b5a4cb;
+    background-color: #264969;
     color: white;
     padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+footer a {
+    color: white
+}
 
+footer a:hover {
+    color: #71563d
+}
 /* Footer */
 footer {
     display: grid;
     grid-template-columns: 80% 15%;
     align-items: center;
     padding: 20px;
-    background-color: var(--footer-bg);
     color: #fff;
     font-family: 'Dancing Script', cursive;
 }
@@ -248,6 +254,7 @@ footer img {
     height: 30px;
     border-radius: 50%;
     transition: transform 0.3s ease;
+    box-shadow: 0 0 15px 5px #fff;  
 }
 
 footer img:hover {
