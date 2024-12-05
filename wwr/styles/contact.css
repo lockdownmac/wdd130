@@ -28,6 +28,7 @@ header {
     background-color: var(--primary-color);
     color: #fff;
     justify-content: flex-end;
+    font-family: 'Dancing Script', cursive;
 }
 
 header img {
