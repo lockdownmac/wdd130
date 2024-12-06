@@ -147,17 +147,20 @@ h1{
 }
 
 .adventure-images {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    justify-content: center;
+    gap: 20px;
+    margin-left: 5px;
 }
 
 .adventure-images img {
     box-shadow:  0 0 15px 5px #71563d;
+    width: 100%;
+    height:auto;
 }
 .adventure figure {
     text-align: center;
@@ -171,8 +174,128 @@ h1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
+/* Employee Section*/
+.employees h2 {
+    justify-self: center;
+    text-align: center; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}
 
+/* happy employees*/
 
+.employee-images {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+
+}
+.employee-images img {
+    box-shadow:  0 0 15px 5px #71563d;
+}
+
+.employee-images figure {
+    text-align: center;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.employees {
+    /*display: flex;
+    flex-direction: row;
+   /*grid-template-columns: 1fr 2fr 1fr;*/
+    border: 20px;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow:  0 0 15px 5px #43555f;
+}
+/* Form Section */
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 3px #71563d;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    box-shadow: 0 0 15px 5px #43555f;  
+    display: grid;
+    margin-bottom: 40px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border:1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #43555f;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em; 
+}
+
+.form-item column1 {
+    display: grid;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.form-email column2 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 2fr 2fr;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Dancing Script', cursive;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+.form-radio {
+    font-family: 'Dancing Script', cursive;
+
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: center;
+    
+}
+
+button {
+    margin: 1rem;
+    background-color: #43555f;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #71563d;
+    transform: scale(1.2);
+}
 /* Footer */
 footer {
     text-align: center;
