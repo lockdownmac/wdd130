@@ -68,9 +68,11 @@ nav a {
     background-color: #264969;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 0 15px 5px #fff;
 }
 
+.header-a {
+    box-shadow: 0 0 15px 5px #fff;
+}
 nav a:hover {
     background-color: #71563d;
     color: #eee;
@@ -100,7 +102,7 @@ h1{
 }
 /* History Section */
 .history {
-    display: flex;
+   /* display: flex;
     flex-direction: row;
    /*grid-template-columns: 1fr 2fr 1fr;*/
     gap: 20px;
@@ -126,7 +128,16 @@ h1{
     color: var(--primary-color);
     margin-bottom: 20px;
     padding: 20px;
+    text-align: center;
 }
+
+.p-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .history p {
     text-align: justify;
     margin: auto 0;
@@ -145,6 +156,8 @@ h1{
     margin-bottom: 20px;
     padding: 20px;
 }
+
+
 
 .adventure-images {
     display: grid;
@@ -334,7 +347,7 @@ footer img {
     height: 30px;
     border-radius: 50%;
     transition: transform 0.3s ease;
-    box-shadow: 0 0 15px 5px #fff; 
+    box-shadow: 0 0 15px 5px #fff;
 }
 
 footer img:hover {
