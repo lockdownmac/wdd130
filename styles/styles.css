@@ -62,10 +62,7 @@ footer {
     text-align: center;
 }
 
-main{
-    grid-column: 2/3;
-    margin: 0rem;
-}
+
 
 aside {
     width: 20rem;

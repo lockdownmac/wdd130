@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #264969;
+    --secondary-color: #71563d;
+    --light-bg: #e7d5c4;
+    --footer-bg: #264969;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -12,12 +19,6 @@ body {
     margin: 0;
 }
 
-:root {
-    --primary-color: #264969;
-    --secondary-color: #71563d;
-    --light-bg: #e7d5c4;
-    --footer-bg: #264969;
-}
 
 /* Header */
 header {
@@ -80,27 +81,180 @@ nav a:hover {
     align-items: center;
 }
 
+/* Home main content css */
+
+.home-input h1, h2 {
+    color: #e7d5c4;
+}
+
+.book-now button {
+    color: #e7d5c4;
+}
+
+.home-input {
+    position: absolute;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0rem;
+    padding: 1rem;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
 
 
-/* Main Content Layout */
-.main-content {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
+.main-content-home img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: #fff;
+    gap: 20px;
+}
+
+
+.main-content-home {
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%; 
     text-align: center;
+}
     
+.main-content-home h2 {
+    justify-self: center;
+    text-align: center; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}
+
+.home-form legend {
+    color: #264969;
+}
+
+.main-adventures {
+    text-align: center;
+    margin: 0;
+    display: flex; /* Enables horizontal layout */
+    flex-wrap: wrap; /* Allows wrapping to the next row */
+    gap: 20px; /* Space between figures */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+}
+.main-adventures figure {
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Clears any extra padding */
+    width: 200px; /* Sets consistent figure width */
+    text-align: center; /* Centers the figure caption */
+    box-sizing: border-box; /* Includes padding and border in total size */
+}
+
+.main-adventures figcaption {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.main-adventures img {
+    width: 100%; /* Makes images responsive to figure width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures images are visually consistent */
+    border-radius: 8px; /* Optional: Adds a modern style */
+    box-shadow:  0 0 15px 5px #71563d;
+    width: 100%;
+    height:auto;
+}
+/* Join Us Portion */
+
+.join-us {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 90px;
+    position: relative;
+    background-color: #264969;
+    box-shadow: 0 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 840px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.join-us-box {
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    right: 250px;
+    width: 300px;
+    height: 260px;
+    border: 1px solid #264969;
+    color: #e7d5c4;
+    background-color: #71563d;
+   z-index: 2;
+   
+}
+
+ .join-us-box h1{
+    color: #e7d5c4;
+ }
+
+.join-us-box2 img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin: 2rem;
+    z-index: 1;
+    box-shadow: 0 0 20px;
+}
+/* about us page*/
+
+.main-content {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100%; 
+}
+
+.main-content p {
+    text-align: justify;
+    margin: 20px
 }
 
 .main-content img {
-    box-shadow:  0 0 15px 5px #71563d;
-    margin: 20px;
+    box-shadow: 0 0 15px 5px #71563d;
+    margin-bottom: 2rem; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 h1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
-/* History Section */
+
+/* About Us History Section */
+
 .history {
    /* display: flex;
     flex-direction: row;
@@ -143,7 +297,6 @@ h1{
     margin: auto 0;
 }
 
-/* Adventures Section */
 .adventures {
     text-align: center;
     margin-bottom: 40px;
@@ -156,8 +309,6 @@ h1{
     margin-bottom: 20px;
     padding: 20px;
 }
-
-
 
 .adventure-images {
     display: grid;
@@ -194,8 +345,10 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
 }
-
-/* happy employees*/
+.contact-content {
+    text-align: center;
+    padding: 2rem;
+}
 
 .employee-images {
     display: flex;
