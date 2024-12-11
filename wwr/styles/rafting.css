@@ -100,7 +100,6 @@ nav a:hover {
 
 .call-to-action button {
     background-color: #264969;
-    color: #264969;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -111,7 +110,6 @@ nav a:hover {
 
 .call-to-action button:hover {
     background-color: #264969;
-    color: #264969;
     transform: scale(1.1);
 }
 
