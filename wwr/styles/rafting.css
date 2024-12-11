@@ -106,7 +106,7 @@ nav a:hover {
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color #264969 0.3s ease, transform 0.3s ease;
+    transition:  0.3s ease, transform 0.3s ease;
 }
 
 .call-to-action button:hover {
@@ -197,7 +197,6 @@ table th {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: #fff;
     gap: 20px;
 }
 
