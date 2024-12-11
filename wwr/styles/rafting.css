@@ -224,19 +224,19 @@ table th {
 .main-adventures {
     text-align: center;
     margin: 0;
-    display: flex; /* Enables horizontal layout */
-    flex-wrap: wrap; /* Allows wrapping to the next row */
-    gap: 20px; /* Space between figures */
-    justify-content: space-between; /* Distribute space between items */
-    align-items: flex-start; /* Align items at the top */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-between; 
+    align-items: flex-start; 
     padding: 20px;
 }
 .main-adventures figure {
-    margin: 0; /* Removes default margins */
-    padding: 0; /* Clears any extra padding */
-    width: 200px; /* Sets consistent figure width */
-    text-align: center; /* Centers the figure caption */
-    box-sizing: border-box; /* Includes padding and border in total size */
+    margin: 0; 
+    padding: 0; 
+    width: 200px; 
+    text-align: center; 
+    box-sizing: border-box;
 }
 
 .main-adventures figcaption {
@@ -247,10 +247,10 @@ table th {
     font-family: 'Dancing Script', cursive;
 }
 .main-adventures img {
-    width: 100%; /* Makes images responsive to figure width */
-    height: auto; /* Maintains aspect ratio */
-    object-fit: cover; /* Ensures images are visually consistent */
-    border-radius: 8px; /* Optional: Adds a modern style */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
     box-shadow:  0 0 15px 5px #71563d;
     width: 100%;
     height:auto;
@@ -289,7 +289,7 @@ table th {
     margin: 0;
     top: 60px;
     right: 350px;
-    width: 300px;
+    width: 370px;
     height: 260px;
     border: 1px solid #264969;
     color: #e7d5c4;
