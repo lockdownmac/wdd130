@@ -221,6 +221,18 @@ table th {
     color: #264969;
 }
 
+form input {
+    display: block; 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+form button {
+    margin-top: 10px; /* Adds space above the button */
+}
+
 .main-adventures {
     text-align: center;
     margin: 0;
