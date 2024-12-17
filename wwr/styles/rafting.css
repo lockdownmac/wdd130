@@ -69,8 +69,8 @@ nav a {
 
 
 nav a:hover {
-    background-color: #71563d;
-    color: #fff;
+    background-color: #e7d5c4;
+    color: #264969;
     transition: transform 0.3s ease;
     align-items: center;
 }
