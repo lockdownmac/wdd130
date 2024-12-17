@@ -40,11 +40,7 @@ header img {
    
 }
 
-header h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
-    text-align: center;
-}
+
 p {
     font-family: 'Dancing Script', cursive;
 
@@ -71,9 +67,7 @@ nav a {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.header-a {
-    box-shadow: 0 0 15px 5px #fff;
-}
+
 nav a:hover {
     background-color: #71563d;
     color: #eee;
@@ -83,19 +77,20 @@ nav a:hover {
 /* Trips Main Content*/
 
 /* Call-to-Action Section */
-.call-to-action {
-    background-color: #71563d;
-    color: #e7d5c4;
-    text-align: center;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
-}
 
+.call-to-action {
+    text-align: center;
+}
 .call-to-action a {
     color: #264969;
     text-decoration: none;
     font-weight: bold;
+}
+.call-to-action a:hover {
+    color: #71563d;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow:#71563d;
 }
 
 .call-to-action button {
@@ -529,9 +524,28 @@ label {
     text-align: right;
     padding-right: 1rem;
 }
-.form-radio {
-    font-family: 'Dancing Script', cursive;
 
+.form-radio {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 0;
+    margin: 0;
+}
+
+.form-radio label {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    margin: 0;
+}
+
+.form-radio input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle; 
 }
 
 input, select, textarea {
@@ -556,10 +570,7 @@ button {
     font-size: 1.2rem;
 }
 
-button:hover {
-    background-color: #71563d;
-    transform: scale(1.2);
-}
+
 /* Footer */
 footer {
     text-align: center;
@@ -572,9 +583,7 @@ footer a {
     color: white
 }
 
-footer a:hover {
-    color: #71563d
-}
+
 
 /* Footer */
 footer {
@@ -601,8 +610,6 @@ footer img {
     box-shadow: 0 0 15px 5px #fff;
 }
 
-footer img:hover {
-    transform: scale(1.2);
-}
+
 
 
