@@ -300,14 +300,14 @@ form button {
     width: 370px;
     height: 260px;
     border: 1px solid #264969;
-    color: #fff;
-    background-color: #71563d;
+    color: #264969;
+    background-color: beige;
    z-index: 2;
    
 }
 
  .join-us-box h1{
-    color: #e7d5c4;
+    color: #264969;
  }
 
 .join-us-box2 img {
